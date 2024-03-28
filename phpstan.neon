@@ -1,0 +1,8 @@
+includes:
+  - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+parameters:
+    paths:
+        - app
+    level: 9
+    ignoreErrors:
+    excludePaths:
